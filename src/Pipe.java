@@ -7,6 +7,6 @@ public class Pipe implements Tool{
 
     @Override
     public void play() {
-        System.out.printf("Играет труба диаметром %.1f см\n", diameter);
+        System.out.printf("Играет труба диаметром %.1f см ноту %s\n", diameter, KEY);
     }
 }
